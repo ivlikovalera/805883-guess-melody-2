@@ -10,8 +10,8 @@ const init = () => {
 
   ReactDOM.render(
       <App
-        errorCount={settings.errorCount}
         time={settings.time}
+        errorCount={settings.errorCount}
       />,
       document.querySelector(`#root`)
   );
