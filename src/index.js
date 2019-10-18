@@ -4,8 +4,8 @@ import {App} from './components/app/app.jsx';
 
 const init = () => {
   const settings = {
-    time: 5,
-    errorCount: 3,
+    time: 7,
+    errorCount: 4,
   };
 
   ReactDOM.render(
