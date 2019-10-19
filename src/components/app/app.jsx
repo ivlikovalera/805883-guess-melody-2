@@ -11,6 +11,6 @@ export const App = (props) => {
 };
 
 App.propTypes = {
-  time: pt.number,
-  errorCount: pt.number
+  time: pt.number.isRequired,
+  errorCount: pt.number.isRequired
 };
