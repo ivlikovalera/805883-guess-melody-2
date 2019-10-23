@@ -7,6 +7,7 @@ export const App = (props) => {
   return <WelcomeScreen
     time={time}
     errorCount={errorCount}
+
   />;
 };
 

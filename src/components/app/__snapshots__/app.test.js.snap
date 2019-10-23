@@ -38,6 +38,7 @@ exports[`App correctly renders after relaunch 1`] = `
   >
     <li>
       За 
+      0
        минут нужно ответить на все вопросы.
     </li>
     <li>

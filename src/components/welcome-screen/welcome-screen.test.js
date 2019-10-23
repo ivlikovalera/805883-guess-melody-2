@@ -5,7 +5,7 @@ import {WelcomeScreen} from './welcome-screen.jsx';
 it(`WelcomeScreen correctly renders after relaunch`, () => {
   const tree = renderer
   .create(<WelcomeScreen
-    mistakes={0}
+    time={0}
     errorCount={0}
     onStartButtonClick={() => {}}
   />)
