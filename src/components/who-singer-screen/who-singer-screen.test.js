@@ -1,11 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import {WhoSingerScreen} from './who-singer-screen.jsx';
+import WhoSingerScreen from './who-singer-screen.jsx';
+import {questions} from '../../mocks/questions.js';
 
-it(`WhichGenreScreen correctly renders`, () => {
+it(`WhoSingerScreen correctly renders`, () => {
   const singerScreen = renderer
   .create(<WhoSingerScreen
-    question={{}}
+    question={questions[1]}
     screenIndex={0}
     onAnswer={() => {}}
   />)

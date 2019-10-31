@@ -2,8 +2,8 @@ import React from 'react';
 import {PureComponent} from 'react';
 import {PropTypes as pt} from 'prop-types';
 import {WelcomeScreen} from '../welcome-screen/welcome-screen.jsx';
-import {WhichGenreScreen} from '../which-genre-screen/which-genre-screen.jsx';
-import {WhoSingerScreen} from '../who-singer-screen/who-singer-screen.jsx';
+import WhichGenreScreen from '../which-genre-screen/which-genre-screen.jsx';
+import WhoSingerScreen from '../who-singer-screen/who-singer-screen.jsx';
 
 export default class App extends PureComponent {
   static getScreen(question, props, onUserAnswer) {
@@ -49,8 +49,6 @@ export default class App extends PureComponent {
 
   render() {
     const {
-      time,
-      errorCount,
       questions,
     } = this.props;
     const {question} = this.state;
