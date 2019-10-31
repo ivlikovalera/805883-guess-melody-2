@@ -9,11 +9,11 @@ Enzyme.configure({adapter: new Adapter()});
 it(`WhoSingerScreen accept correct format`, () => {
   const sendingData = jest.fn();
   const genreScreen = shallow(<WhoSingerScreen
-    question={questions[2]}
+    question={questions[1]}
     screenIndex={0}
     onAnswer={() => {}}
   />);
-  const radio = genreScreen.find(`input`);
+  const radio = genreScreen.find(`#answer-0`);
   radio.simulate(`click`);
   expect(sendingData).toBeTruthy();
 });

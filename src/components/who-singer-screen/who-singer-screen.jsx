@@ -70,9 +70,8 @@ export default class WhoSingerScreen extends PureComponent {
 
 WhoSingerScreen.propTypes = {
   question: pt.shape({
-    answers: pt.array,
-    song: {}
+    answers: pt.array
   }),
   screenIndex: pt.number,
-  onAnswer: pt.func,
+  onAnswer: pt.func
 };
